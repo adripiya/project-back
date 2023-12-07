@@ -1,3 +1,30 @@
+Instalación del proyecto->
+
+introducir atraves de terminal uno a uno estos comandos para migrar la bbdd: 
+    "php artisan migrate --path=/database/migrations/2023_11_30_174740_create_states_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_181411_create_postal_codes_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_173935_create_cities_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_174003_create_directions_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_174013_create_restaurants_table.php
+    
+    php artisan migrate --path=/database/migrations/2023_12_01_183729_create_people_table.php
+    php artisan migrate --path=/database/migrations/2014_10_12_000000_create_users_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_174100_create_promoters_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_174342_create_restaurant_promoters_table.php
+
+    php artisan migrate --path=/database/migrations/2023_11_30_174307_create_bookings_table.php
+    php artisan migrate --path=/database/migrations/2023_11_30_174711_create_booking_details_table.php
+    php artisan migrate"
+
+Posteriormente hacer:
+
+"php artisan serve --host=192.168.0.27 --port=8000"
+
+Si quieres resetear todo introduce:
+
+"php artisan mgirate:reset"
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
